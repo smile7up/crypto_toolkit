@@ -1,0 +1,32 @@
+identity:
+  name: base64_encode
+  author: momo
+  label:
+    en_US: Base64 Encode
+    zh_Hans: Base64 编码
+description:
+  human:
+    en_US: Encodes a string into Base64 format.
+    zh_Hans: 将字符串编码为 Base64 格式。
+  llm: This tool takes a string and encodes it into Base64 format. Use it when you need to convert text or data into a Base64 string.
+parameters:
+  - name: input_string
+    type: string
+    required: true
+    label:
+      en_US: Input String
+      zh_Hans: 输入字符串
+    human_description:
+      en_US: The string to be encoded.
+      zh_Hans: 需要进行编码的字符串。
+    llm_description: The raw string that needs to be encoded into Base64.
+    form: llm
+extra:
+  python:
+    source: tools/base64_encode.py
+output_schema:
+  type: object
+  properties:
+    encoded_string:
+      type: string
+      description: The resulting Base64 encoded string.

@@ -11,7 +11,7 @@ identity:
     pt_BR: "A toolkit for common encryption and decryption tasks."
   icon: "icon.svg"
 tools:
-  - tools/crypto_toolkit.yaml
+  - tools/base64_encode.yaml
 extra:
   python:
-    source: provider/crypto_toolkit.py
+    source: provider/base64_encode.py

@@ -27,7 +27,7 @@ resource:
       size: 1048576
 plugins:
   tools:
-    - provider/crypto_toolkit.yaml
+    - provider/base64_encode.yaml
 meta:
   version: 0.0.1
   arch:
