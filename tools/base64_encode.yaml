@@ -1,6 +1,6 @@
 identity:
   name: base64_encode
-  author: momo
+  author: himly
   label:
     en_US: Base64 Encode
     zh_Hans: Base64 编码
