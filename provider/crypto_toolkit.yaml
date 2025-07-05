@@ -1,0 +1,17 @@
+identity:
+  author: "himly"
+  name: "crypto_toolkit"
+  label:
+    en_US: "crypto_toolkit"
+    zh_Hans: "crypto_toolkit"
+    pt_BR: "crypto_toolkit"
+  description:
+    en_US: "A toolkit for common encryption and decryption tasks."
+    zh_Hans: "A toolkit for common encryption and decryption tasks."
+    pt_BR: "A toolkit for common encryption and decryption tasks."
+  icon: "icon.svg"
+tools:
+  - tools/crypto_toolkit.yaml
+extra:
+  python:
+    source: provider/crypto_toolkit.py
