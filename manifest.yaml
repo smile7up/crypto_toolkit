@@ -15,19 +15,10 @@ description:
 icon: icon.svg
 resource:
   memory: 268435456
-  permission:
-    tool:
-      enabled: true
-    endpoint:
-      enabled: true
-    app:
-      enabled: true
-    storage:
-      enabled: true
-      size: 1048576
+  permission: {}
 plugins:
   tools:
-    - provider/base64_encode.yaml
+    - provider/crypto_toolkit.yaml
 meta:
   version: 0.0.1
   arch:
