@@ -5,7 +5,7 @@ from dify_plugin import Tool
 from dify_plugin.entities.tool import ToolInvokeMessage
 
 # 从 utils 文件导入我们的核心逻辑函数
-from util.helpers import encode_base64
+from utils.helpers import encode_base64
 
 class Base64EncodeTool(Tool):
     def _invoke(self, tool_parameters: dict[str, Any]) -> Generator[ToolInvokeMessage, None, None]:
