@@ -1,10 +1,5 @@
 import base64
-import json
-import urllib.parse
 
-import hashlib
-import secrets
-import string
 
 def encode_base64(input_string: str) -> str:
     """
